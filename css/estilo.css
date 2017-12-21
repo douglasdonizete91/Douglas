@@ -44,7 +44,21 @@ main h2,h1{
 main p{
 	margin:0 0 10px 0;
 	font-size:1.4em
+}/*configuração de paragrafos*/
+h1,h2,p,ul,li{
+	margin:0;
+	padding:0;
 }
+h1,h2,p{
+	padding:15px;
+	text-indent:25px;
+}
+p,ul,li{
+	font-size:1.4em;
+	line-height:1.4em;
+	color:#282829;
+}
+/*final da configuração dos paragrafos*/
 #galeria{
 	padding:5vw;
 	font-size:0;
@@ -61,43 +75,40 @@ main p{
 	width:100%;
 	height:auto;
 }
+form{
+	display:block;
+	margin: 0em;
+}
+#formulario{
+	height:100%;
+	width:52.4%;
+	border-radius:5px;
+	margin-left:275px;
+}
+fieldset{
+	display:block;
+	-webkit-margin-start:2px;
+	-webkit-margin-end: 2px;
+	-webkit-padding-before: 0.35em;
+	-wibkit-padding-start:0.75em;
+}
 /*aqui termina o main*/
 aside{
-	float: right;
-	padding:10px;
-	width:25%;
-	height:auto;
 	border:3px solid #696969;
+	float: right;
 	
+	width:25%;
 	background: #D3D3D3;
-	margin-top:7px;
-	
+;	
 }
 aside img{
 	border: 3px solid #696969;
-	width:92%;
+	
 	padding:0.5%;
-	height:160px;
 	margin-top:2.5%;
 	margin-left:2.5%;
-	margin-bottom:2%;
+	margin-bottom:1%;
 	
-}
-h1,h2,p,ul,li{
-	margin:0;
-	padding:0;
-}
-
-h2{
-	padding:15px;
-}
-
-p,ul,li{
-	font-size:1.4em;
-	line-height:1.4em;
-	padding:2px;
-	color:#282829;
-	text-indent:25px;
 }
 #nav a{
 	text-decoration:none;
@@ -118,7 +129,6 @@ section{
 	height:380px;
 	width:100%;
 }
-
 #texto{
 	text-align:justify;
 	font-size: 20px;
@@ -128,10 +138,7 @@ section{
 img{
 	float:left;
 	width:150 px;
-	
 }
-
-
 footer{
 	clear:both;
 	color: #00008B;
@@ -144,7 +151,6 @@ footer{
 	border-bottom:5px solid #FF7F50;
 	text-align:center;
 }
-
 .dropdownmenu ul, .dropdownmenu li{
 	margin:0 auto;
 	padding: 0 auto;
